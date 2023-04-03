@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "municipal-inspection",
+    "name": "რეგ-ფორმა",
     "slug": "municipal-inspection",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "../assets/logo_municipaluri.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "../assets/logo_municipaluri.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "../assets/logo_municipaluri.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "../assets/favicon.png"
     }
   }
 }
