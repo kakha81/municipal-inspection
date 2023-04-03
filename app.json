@@ -4,7 +4,7 @@
     "slug": "municipal-inspection",
     "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "../assets/logo_municipaluri.png",
+    "icon": "../assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "../assets/logo_municipaluri.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "../assets/logo_municipaluri.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.neomaster.municipalinspection"
     },
     "web": {
       "favicon": "../assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "67ccffb9-337a-46d6-a783-0769ae12152b"
+      }
     }
   }
 }

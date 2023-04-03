@@ -10,7 +10,7 @@ import {
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Header_Reg_Form_01 from "./components_form_01/Header_Reg_Form_01";
-// import Header_Reg_Form_02 from "./components_form_02/Header_Reg_Form_02";
+import Header_Reg_Form_02 from "./components_form_02/Header_Reg_Form_02";
 import Reg_Number_01 from "./components_form_01/Reg_Number_01";
 import Reg_Number_02 from "./components_form_02/Reg_Number_02";
 import Employee_1 from "./components_form_01/Employee_1";
@@ -96,7 +96,7 @@ function Changing() {
     <KeyboardAvoidingView enableOnAndroid behavior='padding'>
       <ScrollView>
         <View style={styles.container}>
-          {/* <Header_Reg_Form_02 /> */}
+          <Header_Reg_Form_02 />
           <Reg_Number_02 />
           <Employee_1 />
           <Employee_2 />
